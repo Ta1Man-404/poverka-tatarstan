@@ -1,0 +1,14 @@
+{
+  "name": "Поверка Татарстан",
+  "short_name": "Поверка",
+  "description": "Поверка, замена и установка счётчиков в Казани и Татарстане",
+  "start_url": "/poverka-tatarstan/",
+  "display": "browser",
+  "lang": "ru",
+  "theme_color": "#00843D",
+  "background_color": "#ffffff",
+  "icons": [
+    {"src": "/poverka-tatarstan/dist/static/brand/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/poverka-tatarstan/dist/static/brand/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
