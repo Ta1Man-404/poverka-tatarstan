@@ -20,7 +20,7 @@
   <link rel="manifest" href="/poverka-tatarstan/site.webmanifest"><link rel="preload" href="/poverka-tatarstan/dist/static/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/poverka-tatarstan/dist/static/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/poverka-tatarstan/dist/static/fonts/manrope-rub.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/poverka-tatarstan/dist/styles/site.min.css?v=mvnwaamy"><link rel="preload" as="image" href="/poverka-tatarstan/dist/static/images/pressure-brass-1200.webp" imagesrcset="/poverka-tatarstan/dist/static/images/pressure-brass-400.webp 400w, /poverka-tatarstan/dist/static/images/pressure-brass-600.webp 600w, /poverka-tatarstan/dist/static/images/pressure-brass-800.webp 800w, /poverka-tatarstan/dist/static/images/pressure-brass-1200.webp 1200w" imagesizes="(max-width: 900px) 100vw, 46vw" fetchpriority="high">
+  <link rel="stylesheet" href="/poverka-tatarstan/dist/styles/site.min.css?v=mvpf15jv"><link rel="preload" as="image" href="/poverka-tatarstan/dist/static/images/pressure-brass-1200.webp" imagesrcset="/poverka-tatarstan/dist/static/images/pressure-brass-400.webp 400w, /poverka-tatarstan/dist/static/images/pressure-brass-600.webp 600w, /poverka-tatarstan/dist/static/images/pressure-brass-800.webp 800w, /poverka-tatarstan/dist/static/images/pressure-brass-1200.webp 1200w" imagesizes="(max-width: 900px) 100vw, 46vw" fetchpriority="high">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -97,7 +97,7 @@
       <a class="hdr__phone" href="tel:+79375998000" data-goal="phone_click">+7 937 599-80-00</a>
       <span class="hdr__hours">ежедневно 8:00–20:00</span>
     </div>
-    <button class="btn btn--sm hdr__cta" type="button" data-modal-open>Вызвать мастера</button>
+    <button class="btn btn--sm hdr__cta" type="button" data-modal-open>Оставить заявку</button>
     <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Меню" data-burger>
       <svg class="ic"><use href="#i-menu"/></svg>
     </button>
@@ -145,7 +145,7 @@
   </div>
   <label class="lead__consent">
     <input type="checkbox" name="consent" value="1" required>
-    <span>Согласен с <a href="/poverka-tatarstan/consent" target="_blank">обработкой персональных данных</a></span>
+    <span>Даю <a href="/poverka-tatarstan/consent" target="_blank">согласие на обработку персональных данных</a> на условиях <a href="/poverka-tatarstan/privacy" target="_blank">Политики</a></span>
   </label>
   <p class="lead__msg" role="status" aria-live="polite" data-msg></p>
 </form>
@@ -279,7 +279,7 @@
   </div>
   <label class="lead__consent">
     <input type="checkbox" name="consent" value="1" required>
-    <span>Согласен с <a href="/poverka-tatarstan/consent" target="_blank">обработкой персональных данных</a></span>
+    <span>Даю <a href="/poverka-tatarstan/consent" target="_blank">согласие на обработку персональных данных</a> на условиях <a href="/poverka-tatarstan/privacy" target="_blank">Политики</a></span>
   </label>
   <p class="lead__msg" role="status" aria-live="polite" data-msg></p>
 </form>
@@ -322,8 +322,10 @@
   <div class="wrap ftr__bottom">
     <span>© 2026 ООО «ЦСМ» · ИНН 1659192017</span>
     <nav aria-label="Документы">
+      <a href="/poverka-tatarstan/privacy">Политика обработки ПД</a>
       <a href="/poverka-tatarstan/consent">Согласие на обработку данных</a>
       <a href="/poverka-tatarstan/cookie-policy">Cookie</a>
+      <button class="ftr__link" type="button" data-cookie-settings>Настройки cookie</button>
       <a href="/poverka-tatarstan/terms">Соглашение</a>
       <a href="/poverka-tatarstan/oferta">Оферта</a>
       <a href="/poverka-tatarstan/requisites">Реквизиты</a>
@@ -333,14 +335,14 @@
 
 <div class="mbar" aria-label="Быстрая связь">
   <a class="mbar__call" href="tel:+79375998000" data-goal="phone_click"><svg class="ic"><use href="#i-phone"/></svg>Позвонить</a>
-  <button class="mbar__lead" type="button" data-modal-open>Вызвать мастера</button>
+  <button class="mbar__lead" type="button" data-modal-open>Оставить заявку</button>
 </div>
 
 
 <dialog class="modal" id="lead-modal" aria-labelledby="lead-modal-title">
   <button class="modal__x" type="button" aria-label="Закрыть" data-modal-close><svg class="ic"><use href="#i-close"/></svg></button>
   <img class="modal__logo" src="/poverka-tatarstan/dist/static/brand/logo-mark-156.webp" alt="" width="56" height="56">
-  <h2 class="modal__t" id="lead-modal-title">Вызвать мастера</h2>
+  <h2 class="modal__t" id="lead-modal-title">Оставить заявку</h2>
   <p class="modal__s">Оставьте телефон — назовём точную цену и подберём время визита. Ежедневно 8:00–20:00.</p>
   
 <form class="lead lead--stack" action="/poverka-tatarstan/send.php" method="post" data-lead novalidate>
@@ -360,7 +362,7 @@
   </div>
   <label class="lead__consent">
     <input type="checkbox" name="consent" value="1" required>
-    <span>Согласен с <a href="/poverka-tatarstan/consent" target="_blank">обработкой персональных данных</a></span>
+    <span>Даю <a href="/poverka-tatarstan/consent" target="_blank">согласие на обработку персональных данных</a> на условиях <a href="/poverka-tatarstan/privacy" target="_blank">Политики</a></span>
   </label>
   <p class="lead__msg" role="status" aria-live="polite" data-msg></p>
 </form>
@@ -372,8 +374,8 @@
   <img src="" alt="" data-lightbox-img>
 </dialog>
 
-<script type="module" src="/poverka-tatarstan/src/app.js?v=mvnwaamy"></script><div class="cookie" role="region" aria-label="Cookies" data-cookie hidden>
-  <p class="cookie__t">Мы используем cookies и Яндекс Метрику, чтобы понимать, как улучшить сайт. <a href="/poverka-tatarstan/cookie-policy">Подробнее</a></p>
+<script type="module" src="/poverka-tatarstan/src/app.js?v=mvpf15jv"></script><div class="cookie" role="region" aria-label="Cookies" data-cookie hidden>
+  <p class="cookie__t">С вашего согласия сайт подключит Яндекс Метрику: её cookie помогают понять, как улучшить сайт. Без согласия она не загружается. <a href="/poverka-tatarstan/cookie-policy">Подробнее</a></p>
   <div class="cookie__btns">
     <button class="btn btn--sm" type="button" data-cookie-accept>Принять</button>
     <button class="btn btn--sm btn--ghost" type="button" data-cookie-decline>Только необходимые</button>
